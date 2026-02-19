@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+
+# Data files (we don't want CSV files in the repo)
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+*.csv
+*.parquet
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# Docker
+docker-compose.yml
+Dockerfile
